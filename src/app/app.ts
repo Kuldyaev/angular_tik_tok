@@ -1,10 +1,10 @@
 import { Component, signal } from '@angular/core';
-import { RouterOutlet } from '@angular/router';
+// import { RouterOutlet } from '@angular/router';
 import { ProfileCard } from './common-ui/profile-card/profile-card';
 
 @Component({
   selector: 'app-root',
-  imports: [RouterOutlet, ProfileCard],
+  imports: [/*RouterOutlet,*/ ProfileCard],
   templateUrl: './app.html',
   styleUrl: './app.scss'
 })
